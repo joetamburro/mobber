@@ -262,7 +262,6 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
 }
 
 .award-button {
-  border: 1px solid blue;
   border-radius: 8px;
   height: 90px;
   width: 264px;
@@ -300,7 +299,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   text-align: center;
   font-size: 9px;
   font-weight: normal;
-  color: #8B8A8A
+  color: #8B8A8A;
 }
 
 .tweets img {
@@ -324,8 +323,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   width: 940px;
   height: 300px;
   margin: 0 auto;
-  margin-bottom: 130px;
-  margin-top: 130px;
+  margin-top: 60px;
   padding: 22px 0 0;
   background: white;
   color: #414141;
@@ -525,6 +523,12 @@ footer h3{
   text-shadow: 0 1px 0 #3F3F3F;
 }
 
+.footer-col-2 h6 {
+  color: #D5D5D2;
+font-size: .8em;
+text-shadow: 0 1px 0 #0E0E0E;
+}
+
 .facebook{
   clear: both;
   display: block;
@@ -567,4 +571,23 @@ footer p{
   font-size: 12px;
   font-weight: 100;
   line-height: 18px;
+}
+
+.table h2{
+  position: relative;
+  bottom: 586px;
+}
+
+.email-button {
+  background: #636464;
+  color: #FFF;
+  width: 130px;
+  line-height: 35px;
+  margin: 0 21px 10px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #3F3F3F;
+  box-shadow: inset 0px 4px 1px -3px rgb(162, 162, 162);
+  text-shadow: 0 1px 0 #3F3F3F;
 }
