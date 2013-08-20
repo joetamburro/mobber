@@ -148,6 +148,21 @@ header {
   margin: -422px 410px
 }
 
+
+.ribbonright {
+  position: relative;
+  display: inline-block;
+  padding: 8px 11px;
+  color: #FFF;
+  background: #FDD300;
+  border-bottom: 1px solid #D39000;
+  font-size: .8em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 1px 0 #B68800;
+  top: -89px;
+}
+
 .mainbottom {
   background: #D0CDC7;
   position: relative;
@@ -157,10 +172,16 @@ header {
 }
 
 .mainbottom h4 {
-  top: 13px;
+  top: 18px;
   position: relative;
-  left: 22px;
   font-size: 18px;
+  font-weight: normal;
+  background: #D0CDC6;
+  color: #414141;
+  font-size: 1em;
+  line-height: 1.525em;
+  font-style: italic;
+  padding-left: 25px;
 }
  
 .sidebar {
@@ -182,6 +203,7 @@ header {
   height: 140px;
   display: inline-block;
   margin-right: 13px;
+  text-shadow: 0 1px 1px #B1AEA9;
 }
 
 .number {
@@ -198,6 +220,7 @@ header {
   text-transform: uppercase;
   position: relative;
   top: 3px;
+  color: #414141;
 }
 
 .boxbottom {
@@ -229,16 +252,16 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
 }
 
 .join-button .text {
-  font-size: 18px;
-  color: #F0E4D4;
+  font-size: 21px;
+  color: #fff;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 14px;
   position: relative;
-  margin: 0px auto;
-  top: 15px;
+  text-shadow: 0px 1px 1px rgba(183, 103, 0, 0.8);
 }
 
 .award-button {
-  border: 1px solid blue;
   border-radius: 8px;
   height: 90px;
   width: 264px;
@@ -251,6 +274,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   margin: 24px 46px;
   text-align: left;
   font-weight: normal;
+  color: #414141;
 }
 
 .award-button h6 {
@@ -258,6 +282,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   margin: -19px 46px;
   font-size: 10px;
   font-weight: normal;
+  color: #414141;
 }
 
 .award-button img {
@@ -274,7 +299,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   text-align: center;
   font-size: 9px;
   font-weight: normal;
-  color: #8B8A8A
+  color: #8B8A8A;
 }
 
 .tweets img {
@@ -298,8 +323,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   width: 940px;
   height: 300px;
   margin: 0 auto;
-  margin-bottom: 130px;
-  margin-top: 130px;
+  margin-top: 60px;
   padding: 22px 0 0;
   background: white;
   color: #414141;
@@ -312,7 +336,7 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
 }
 
 .left-ad img {
-  height: 182px;
+  height: 184px;
   width: 300px;
   top: 8px;
 }
@@ -321,6 +345,13 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   position: relative;
   top: -20px;
   left: 5px;
+}
+
+.left-ad h6 {
+  position: relative;
+  margin: -40px 4px;
+  color: #787878;
+  font-size: 10px;
 }
 
 .middle-ad {
@@ -341,6 +372,13 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
   top: -19px;
 }
 
+.middle-ad h6 {
+  position: relative;
+  margin: -40px 0px;
+  color: #787878;
+  font-size: 10px;
+}
+
 .right-ad{
   position: relative;
   height: 100%;
@@ -356,7 +394,14 @@ background: linear-gradient(to bottom, #fefcea 0%,#F5C300 100%);
 
 .right-ad h5 {
   position: relative;
-  top: -17px;
+  top: -19px;
+}
+
+.right-ad h6 {
+  position: relative;
+  margin: -39px 0px;
+  color: #787878;
+  font-size: 10px;
 }
 
 table {
@@ -449,21 +494,39 @@ footer h3{
 .list-left li{
   width: 120px;
   height: 40px;
-  background-color: #666;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  vertical-align: middle;
+  background: #636464;
+  color: #FFF;
+  line-height: 35px;
+  margin: 0 21px 10px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #3F3F3F;
+  box-shadow: inset 0px 4px 1px -3px rgb(162, 162, 162);
+  text-shadow: 0 1px 0 #3F3F3F;
 
 }
 
 .list-right li{
   width: 120px;
   height: 40px;
-  background-color: #666;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  vertical-align: middle;
+  background: #636464;
+  color: #FFF;
+  font-size: .9em;
+  line-height: 2.5em;
+  margin: 0 21px 10px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #3F3F3F;
+  box-shadow: inset 0px 4px 1px -3px rgb(162, 162, 162);
+  text-shadow: 0 1px 0 #3F3F3F;
+}
 
+.footer-col-2 h6 {
+  color: #D5D5D2;
+font-size: .8em;
+text-shadow: 0 1px 0 #0E0E0E;
 }
 
 .facebook{
@@ -508,4 +571,23 @@ footer p{
   font-size: 12px;
   font-weight: 100;
   line-height: 18px;
+}
+
+.table h2{
+  position: relative;
+  bottom: 586px;
+}
+
+.email-button {
+  background: #636464;
+  color: #FFF;
+  width: 130px;
+  line-height: 35px;
+  margin: 0 21px 10px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #3F3F3F;
+  box-shadow: inset 0px 4px 1px -3px rgb(162, 162, 162);
+  text-shadow: 0 1px 0 #3F3F3F;
 }
